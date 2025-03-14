@@ -85,7 +85,7 @@
 </template>
 
 <script>
-export default {
-  name: 'HeaderZafhira'
-}
+    export default {
+    name: 'HeaderZafhira'
+    }
 </script>

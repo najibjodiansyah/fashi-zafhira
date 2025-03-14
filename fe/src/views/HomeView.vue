@@ -2,6 +2,10 @@
   <div class="home">
     <HeaderSection />
     <HeroSection />
+    <WomanBanner />
+    <SocialMediaPhoto />
+    <PartnerSection />
+    <FooterSection />
   </div>
 </template>
 
@@ -10,13 +14,21 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 import HeaderSection from '@/components/HeaderSection.vue'
 import HeroSection from '@/components/HeroSection.vue'
+import WomanBanner from '@/components/WomanBanner.vue';
+import SocialMediaPhoto from '@/components/SocialMediaSection.vue';
+import PartnerSection from '@/components/PartnerSection.vue';
+import FooterSection from '@/components/FooterSection.vue';
 
 export default {
   name: 'HomeView',
   components: {
     // HelloWorld
     HeaderSection,
-    HeroSection
+    HeroSection,
+    WomanBanner,
+    SocialMediaPhoto,
+    PartnerSection,
+    FooterSection
   },
 }
 </script>
